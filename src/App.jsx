@@ -14,7 +14,7 @@ const router = createBrowserRouter([
 
         children: [
             {
-                path: "/:id",
+                path: ":id",
                 element: <section>Single Product Detail Page!</section>,
             },
         ],
@@ -36,9 +36,9 @@ const router = createBrowserRouter([
 
 const App = () => {
     return (
-        <>
+        <section className="font-primary">
             <RouterProvider router={router} />
-        </>
+        </section>
     );
 };
 
