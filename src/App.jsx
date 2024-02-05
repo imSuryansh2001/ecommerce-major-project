@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Login from "./pages/Login";
 
 const router = createBrowserRouter([
     // Suryansh ------------------------------------
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
     // Molik ------------------------------------
     {
         path: "/login",
-        element: <section>Login Page!</section>,
+        element: <Login />,
     },
     {
         path: "/cart",
