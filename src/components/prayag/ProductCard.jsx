@@ -1,12 +1,12 @@
-import React from 'react';
-import tv from '../../assets/Tv.png';
-import AddToCart from './AddToCart';
+import React from "react";
+import tv from "../../assets/Tv.png";
+import AddToCart from "./AddToCart";
 
 const ProductCard = () => {
 	return (
 		<>
 			<div className="card_background rounded-es-2xl rounded-se-2xl p-5 duration-700 hover:scale-105">
-				<h1 className=" text-[1.7rem] font-bold">Alien Ware Monitor T 46</h1>
+				<h1 className="text-[1.7rem] font-bold">Alien Ware Monitor T 46</h1>
 				<p className=" text-gray-500">
 					TYPE:<span className="">Samsung</span>
 				</p>

@@ -2,32 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Adding variables  */
+:root {
+	--primary: #7b35c8;
+	--secondary: #0098ff;
+}
+
 /* By Molik */
 @layer components {
-    .primary_gradient_borders {
-        border-image-slice: 1;
-        border-image-source: linear-gradient(45deg, #7b35c8, #0098ff);
-        border-image-width: 1;
-    }
+	.primary_gradient_borders {
+		border-image-slice: 1;
+		border-image-source: linear-gradient(45deg, var(--primary), var(--secondary));
+		border-image-width: 1;
+	}
 
-    /* Prayag Product Page */
+	/* Prayag Product Page */
 
-    .card_background {
-        background: linear-gradient(148deg,#0198ff2e,#0000);
-        border: 2px solid #7b35c8;
-    }
+	.card_background {
+		background: linear-gradient(148deg, #0198ff2e, #0000);
+		border: 2px solid var(--primary);
+	}
 
-    .addToCartbtn {
-        text-align: center;
-        color: white;
-        background: linear-gradient(75deg,#0098ff 0%,#7b35c8 100%);
-        cursor: pointer;
-        padding: 10px 15px;
-        transition: 1000ms;
-    }
+	.addToCartbtn {
+		text-align: center;
+		color: white;
+		background: linear-gradient(75deg, var(--secondary) 0%, var(--primary) 100%);
+		cursor: pointer;
+		padding: 10px 15px;
+		transition: 1000ms;
+	}
 
-    .addToCartbtn:active{
-        scale: 0.6;
-    }
-    
+	.addToCartbtn:active {
+		scale: 0.6;
+	}
 }
