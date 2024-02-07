@@ -9,4 +9,25 @@
         border-image-source: linear-gradient(45deg, #7b35c8, #0098ff);
         border-image-width: 1;
     }
+
+    /* Prayag Product Page */
+
+    .card_background {
+        background: linear-gradient(148deg,#0198ff2e,#0000);
+        border: 2px solid #7b35c8;
+    }
+
+    .addToCartbtn {
+        text-align: center;
+        color: white;
+        background: linear-gradient(75deg,#0098ff 0%,#7b35c8 100%);
+        cursor: pointer;
+        padding: 10px 15px;
+        transition: 1000ms;
+    }
+
+    .addToCartbtn:active{
+        scale: 0.6;
+    }
+    
 }
